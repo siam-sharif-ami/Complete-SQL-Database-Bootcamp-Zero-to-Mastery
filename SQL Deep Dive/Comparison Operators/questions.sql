@@ -26,5 +26,5 @@ where (age between 30 and 50) and income <50000;
 /*
 select avg(income)
 from "public"."customers"
-where age between 20 and 50;
+where age>20 and age<50;
 */
